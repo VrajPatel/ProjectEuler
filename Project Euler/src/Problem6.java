@@ -9,9 +9,11 @@ What is the smallest positive number that is evenly divisible by all of the numb
 
 	 */
 
+	
 	public static void main(String[] args){
         long t0 = System.currentTimeMillis();
 		long smallNum = 0 ;
+		//Test commenting
 		
 		for(long i = 1; i < Long.MAX_VALUE; i++){
 			long counter = 0;
